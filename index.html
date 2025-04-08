@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Portfolio Icon2.jpg">
+    <title>Akhil's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/649496f51f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name" style="font-size: 55px;"><span style="color: #f00;">A</span><span style="color: #fff;">khil.</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Backend</span> Developer</p>
+                <h1>Hi, I'm <span>Akhil</span> Irigineni <br>from Bangalore</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Akhil Portfolio BG.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-text"> I'm good at problem-solving and logical thinking so I can solve a problem accordingly. 
+                        I'm a fresher candidate, eagerly waiting for the right platform to start my career as 
+                        a software developer. I'm probably the most passionate person on doing work for the Organisation 
+                        and also passionate in developing software applications which are user-friendly.
+                        If you have a great project that need amazing skills. I'm your guy</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Back-end technology</span> <br>Core Java, JDBC, J2EE, Hibernate, Spring and Spring boot</li>
+                                <li><span>Front-end technology</span> <br>HTML, CSS, Bootstrap and JavaScript</li>
+                                <li><span>Database technology</span> <br>SQL and MySQL </li>
+                                <li><span>Tools/Softwares</span> <br>Eclipse, VS Code, Postman and MySQL Workbench </li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>Jul 2023 - Mar 2024</span> <br>Full-stack developer training at Tap Academy</li>
+                                <li><span>Aug 2019 - Jul 2023</span> <br>B.Tech(CSE) from SRK Institute of Technology</li>
+                                <li><span>Jun 2017 - Apr 2019</span> <br>Class XII from Sri Pratibha Jr.college</li>
+                                <li><span>Jun 2016 - Mar 2017</span> <br>Class X from ZP High School</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>Jul 2023 - Mar 2024</span> <br>Full-stack developer trainee at Tap Academy</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------------------------------Skills section------------------------------------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Back-end development</h2>
+                    <p>Core Java, JDBC, J2EE, Hibernate, Spring and Spring boot</p>
+                    <p><span>Tools </span>: Eclipse IDE, MySQL Workbench and Postman</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end development</h2>
+                    <p>HTML, CSS, Bootstrap and JavaScript</p>
+                    <p><span>Tools </span>: Visual Studio Code and Chrome browser</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>Structured Query Langauge(SQL) and MySQL</p>
+                    <p><span>Tools </span>: MySQL Workbench and MySQL command line client</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Projects----------------------------------- -->
+     <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="projects-list">
+                <div class="project">
+                    <img src="Facial Attendence.jpg" alt="">
+                    <div class="layer">
+                        <h3>Class wised facial attendence</h3>
+                        <p>Our project helps to take attendence of the entire class at a time by 
+                        using a camera which covers whole class. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Portfolio image.jpg" alt="">
+                    <div class="layer">
+                        <h3>My Portfolio website</h3>
+                        <p>My personal website helps to estimate my skills and knowledge to hire for their organisation. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                <div class="project">
+                    <img src="ATM-Program-in-Java.jpg" alt="">
+                    <div class="layer">
+                        <h3>ATM Machine project</h3>
+                        <p>I showed how generally ATM machines works and show the functionality of ATM machines.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+<!-- -----------------------------------Contact----------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  chowdaryakhil829@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>  +91 7032458752</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/akhil-irigineni-232265291"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/akhil_chowdary_97"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/akhilchowdary98"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/1EifrdqjNL/"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Akhil Irigineni-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <span id="msg"></span>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <p>Copyright © 2025 made by Akhil | All rights reserved.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontent= document.getElementsByClassName("tab-content");
+
+function opentab(tabname){
+    for(tab of tablinks){
+        tab.classList.remove("active-link");
+    }
+    for(tabcon of tabcontent){
+        tabcon.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<!-- For sending form details to Google sheet -->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxlqcgA2mhlNK93OlsavST-h6HRb9g2obRIjOYEjJVjbtAMiKqZ3-d1t69B3jyIxAE4/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message has been sent successfully..."
+            setTimeout(function() {
+                msg.innerHTML = ""
+            
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
